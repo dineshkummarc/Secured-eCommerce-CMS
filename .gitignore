@@ -1,6 +1,6 @@
 /bootstrap/compiled.php
-.env.*.php
-.env.php
+!.env.*.php
+!.env.php
 /node_modules
 /public/hot
 /public/storage
@@ -14,10 +14,10 @@
 /public/download
 /public/invoices
 /storage/*.key
-/vendor
+!/vendor
 /temp
 /.idea
-/.vagrant
+!/.vagrant
 Homestead.json
 Homestead.yaml
 npm-debug.log
@@ -25,11 +25,11 @@ yarn-error.log
 .DS_Store
 .idea/
 
-updates/
+!updates/
 app/Addons
 temp/
-composer.lock
+!composer.lock
 package-lock.json
 *.lock
 resources/lang/en.json
-.env
+!.env
